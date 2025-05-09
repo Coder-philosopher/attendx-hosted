@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="64" cy="64" r="60" fill="#14F195" />
+  <circle cx="64" cy="64" r="50" fill="#1C1C1C" />
+  
+  <!-- Lightning bolt -->
+  <path d="M64,30 L40,65 L55,65 L50,95 L85,55 L65,55 L75,30 Z" fill="#FFEE00" stroke="#FFFFFF" stroke-width="2" />
+  
+  <!-- Speed lines -->
+  <path d="M30,55 L20,55" stroke="#14F195" stroke-width="2" />
+  <path d="M30,65 L15,65" stroke="#14F195" stroke-width="2" />
+  <path d="M30,75 L18,75" stroke="#14F195" stroke-width="2" />
+  
+  <path d="M98,55 L108,55" stroke="#14F195" stroke-width="2" />
+  <path d="M98,65 L113,65" stroke="#14F195" stroke-width="2" />
+  <path d="M98,75 L110,75" stroke="#14F195" stroke-width="2" />
+  
+  <!-- Stopwatch -->
+  <circle cx="40" cy="90" r="10" fill="#FFFFFF" stroke="#9945FF" stroke-width="2" />
+  <line x1="40" y1="90" x2="40" y2="84" stroke="#9945FF" stroke-width="2" />
+  <line x1="40" y1="90" x2="45" y2="93" stroke="#9945FF" stroke-width="2" />
+  <rect x="38" y="78" width="4" height="4" fill="#9945FF" />
+</svg>

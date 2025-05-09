@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="64" cy="64" r="60" fill="#14F195" />
+  <circle cx="64" cy="64" r="50" fill="#1C1C1C" />
+  
+  <!-- Calendar -->
+  <rect x="34" y="38" width="60" height="50" rx="4" ry="4" fill="white" />
+  
+  <!-- Calendar header -->
+  <rect x="34" y="38" width="60" height="10" rx="4" ry="4" fill="#9945FF" />
+  
+  <!-- Calendar grid -->
+  <line x1="44" y1="38" x2="44" y2="88" stroke="#DDDDDD" stroke-width="1" />
+  <line x1="54" y1="38" x2="54" y2="88" stroke="#DDDDDD" stroke-width="1" />
+  <line x1="64" y1="38" x2="64" y2="88" stroke="#DDDDDD" stroke-width="1" />
+  <line x1="74" y1="38" x2="74" y2="88" stroke="#DDDDDD" stroke-width="1" />
+  <line x1="84" y1="38" x2="84" y2="88" stroke="#DDDDDD" stroke-width="1" />
+  
+  <line x1="34" y1="58" x2="94" y2="58" stroke="#DDDDDD" stroke-width="1" />
+  <line x1="34" y1="68" x2="94" y2="68" stroke="#DDDDDD" stroke-width="1" />
+  <line x1="34" y1="78" x2="94" y2="78" stroke="#DDDDDD" stroke-width="1" />
+  
+  <!-- Streaks -->
+  <circle cx="39" cy="53" r="3" fill="#14F195" />
+  <circle cx="49" cy="53" r="3" fill="#14F195" />
+  <circle cx="59" cy="53" r="3" fill="#14F195" />
+  <circle cx="69" cy="53" r="3" fill="#14F195" />
+  <circle cx="79" cy="53" r="3" fill="#14F195" />
+  <circle cx="89" cy="53" r="3" fill="#14F195" />
+  
+  <circle cx="39" cy="63" r="3" fill="#14F195" />
+  <circle cx="49" cy="63" r="3" fill="#14F195" />
+  <circle cx="59" cy="63" r="3" fill="#14F195" />
+  <circle cx="69" cy="63" r="3" fill="#14F195" />
+  <circle cx="79" cy="63" r="3" fill="#14F195" />
+  <circle cx="89" cy="63" r="3" fill="#14F195" />
+  
+  <circle cx="39" cy="73" r="3" fill="#14F195" />
+  <circle cx="49" cy="73" r="3" fill="#14F195" />
+  <circle cx="59" cy="73" r="3" fill="#14F195" />
+  
+  <!-- Flame -->
+  <path d="M64,95 C60,90 58,85 60,80 C62,85 68,84 68,80 C68,86 72,85 74,83 C74,87 78,92 72,95 C68,97 66,97 64,95 Z" fill="#FF5555" />
+  <path d="M64,93 C62,90 60,86 62,83 C63,86 66,86 66,83 C66,86 68,86 70,85 C70,87 72,90 68,93 C66,94 65,94 64,93 Z" fill="#FFAA00" />
+</svg>

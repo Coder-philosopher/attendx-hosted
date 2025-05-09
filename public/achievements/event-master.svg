@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="64" cy="64" r="60" fill="#14F195" />
+  <circle cx="64" cy="64" r="50" fill="#1C1C1C" />
+  
+  <!-- Crown -->
+  <path d="M40,50 L52,42 L64,50 L76,42 L88,50 L84,62 L44,62 Z" fill="#FFD700" />
+  <path d="M44,62 L84,62 L80,68 L48,68 Z" fill="#9945FF" />
+  
+  <!-- Crown jewels -->
+  <circle cx="52" cy="46" r="3" fill="#FF4040" />
+  <circle cx="64" cy="54" r="3" fill="#4040FF" />
+  <circle cx="76" cy="46" r="3" fill="#40FF40" />
+  
+  <!-- Event board -->
+  <rect x="34" y="74" width="60" height="32" rx="2" fill="#FFFFFF" />
+  
+  <!-- Event rows -->
+  <line x1="34" y1="82" x2="94" y2="82" stroke="#1C1C1C" stroke-width="1" />
+  <line x1="34" y1="90" x2="94" y2="90" stroke="#1C1C1C" stroke-width="1" />
+  <line x1="34" y1="98" x2="94" y2="98" stroke="#1C1C1C" stroke-width="1" />
+  
+  <!-- Event titles and status -->
+  <rect x="38" y="76" width="20" height="4" fill="#9945FF" />
+  <circle cx="86" cy="78" r="3" fill="#14F195" />
+  <path d="M84,78 L86,80 L88,76" stroke="#1C1C1C" stroke-width="1" fill="none" />
+  
+  <rect x="38" y="84" width="20" height="4" fill="#9945FF" />
+  <circle cx="86" cy="86" r="3" fill="#14F195" />
+  <path d="M84,86 L86,88 L88,84" stroke="#1C1C1C" stroke-width="1" fill="none" />
+  
+  <rect x="38" y="92" width="20" height="4" fill="#9945FF" />
+  <circle cx="86" cy="94" r="3" fill="#14F195" />
+  <path d="M84,94 L86,96 L88,92" stroke="#1C1C1C" stroke-width="1" fill="none" />
+  
+  <!-- More events indicator -->
+  <circle cx="52" cy="102" r="1" fill="#9945FF" />
+  <circle cx="58" cy="102" r="1" fill="#9945FF" />
+  <circle cx="64" cy="102" r="1" fill="#9945FF" />
+  
+  <!-- Number 20 badge -->
+  <circle cx="95" cy="35" r="14" fill="#FFD700" />
+  <text x="95" y="40" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#1C1C1C">20</text>
+</svg>

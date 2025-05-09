@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'PPMontreal';
+  src: url('/fonts/font-reg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PPMontreal';
+  src: url('/fonts/font-mid.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PPMontreal';
+  src: url('/fonts/font-bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 20 14.3% 4.1%;
+  --muted: 60 4.8% 95.9%;
+  --muted-foreground: 25 5.3% 44.7%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 14.3% 4.1%;
+  --card: 0 0% 100%;
+  --card-foreground: 20 14.3% 4.1%;
+  --border: 20 5.9% 90%;
+  --input: 20 5.9% 90%;
+  --primary: 270 100% 60%;  /* Solana purple: #9945FF */
+  --primary-foreground: 0 0% 98%;
+  --secondary: 60 4.8% 95.9%;
+  --secondary-foreground: 24 9.8% 10%;
+  --accent: 166 100% 40%;   /* Solana teal: #14F195 */
+  --accent-foreground: 24 9.8% 10%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 20 14.3% 4.1%;
+  --radius: 0.5rem;
+
+  /* Solana specific colors */
+  --solana-purple: 270 100% 60%;  /* #9945FF */
+  --solana-teal: 166 100% 40%;    /* #14F195 */
+  --solana-blue: 197 100% 50%;    /* #00C2FF */
+  --chart-1: var(--solana-purple);
+  --chart-2: var(--solana-teal);
+  --chart-3: var(--solana-blue);
+  --chart-4: 222 47% 11%;
+  --chart-5: 217 33% 17%;
+}
+
+.dark {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --primary: 270 100% 60%;  /* Solana purple */
+  --primary-foreground: 0 0% 98%;
+  --secondary: 240 3.7% 15.9%;
+  --secondary-foreground: 0 0% 98%;
+  --accent: 166 100% 40%;   /* Solana teal */
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 240 4.9% 83.9%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-['PPMontreal'] antialiased bg-background text-foreground;
+  }
+}
+
+.gradient-bg {
+  @apply bg-gradient-to-br from-[#9945FF]/90 to-[#14F195]/90;
+}
+
+.btn-gradient {
+  @apply bg-gradient-to-r from-[#9945FF] to-[#14F195] transition-all duration-300;
+}
+
+.btn-gradient:hover {
+  @apply opacity-90 -translate-y-0.5;
+}

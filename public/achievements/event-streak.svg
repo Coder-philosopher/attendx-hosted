@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="64" cy="64" r="60" fill="#14F195" />
+  <circle cx="64" cy="64" r="50" fill="#1C1C1C" />
+  
+  <!-- Flame icon -->
+  <path d="M64,30 
+           C64,30 70,44 76,48 
+           C85,54 89,64 83,76 
+           C77,88 64,88 56,84 
+           C48,80 45,70 48,62 
+           C51,54 57,55 57,55 
+           C57,55 53,65 58,70 
+           C63,75 69,72 71,68 
+           C73,64 72,58 68,54 
+           C64,50 58,46 58,38 
+           C58,30 64,30 64,30 Z" 
+        fill="#FF6B00" stroke="#FFD000" stroke-width="1.5" />
+  
+  <!-- Streak numbers -->
+  <g>
+    <circle cx="35" cy="80" r="12" fill="#9945FF" />
+    <text x="35" y="85" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#FFFFFF">3</text>
+  </g>
+  
+  <g>
+    <circle cx="62" cy="88" r="12" fill="#14F195" />
+    <text x="62" y="93" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#000000">5</text>
+  </g>
+  
+  <g>
+    <circle cx="89" cy="80" r="12" fill="#9945FF" />
+    <text x="89" y="85" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#FFFFFF">7</text>
+  </g>
+  
+  <!-- Heat waves -->
+  <path d="M40,34 Q45,32 50,34 Q55,36 60,34 Q65,32 70,34 Q75,36 80,34" 
+        stroke="#FF8F00" stroke-width="2" fill="none" opacity="0.5" />
+  <path d="M36,28 Q42,26 48,28 Q54,30 60,28 Q66,26 72,28 Q78,30 84,28" 
+        stroke="#FF8F00" stroke-width="2" fill="none" opacity="0.3" />
+</svg>

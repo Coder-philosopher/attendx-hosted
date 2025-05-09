@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="64" cy="64" r="60" fill="#9945FF" />
+  <circle cx="64" cy="64" r="50" fill="#1C1C1C" />
+  
+  <!-- Calendar -->
+  <rect x="34" y="40" width="60" height="50" rx="3" fill="#FFFFFF" />
+  <rect x="34" y="40" width="60" height="10" rx="3" fill="#14F195" />
+  
+  <!-- Calendar details -->
+  <line x1="44" y1="40" x2="44" y2="90" stroke="#1C1C1C" stroke-width="1" />
+  <line x1="54" y1="40" x2="54" y2="90" stroke="#1C1C1C" stroke-width="1" />
+  <line x1="64" y1="40" x2="64" y2="90" stroke="#1C1C1C" stroke-width="1" />
+  <line x1="74" y1="40" x2="74" y2="90" stroke="#1C1C1C" stroke-width="1" />
+  <line x1="84" y1="40" x2="84" y2="90" stroke="#1C1C1C" stroke-width="1" />
+  
+  <line x1="34" y1="50" x2="94" y2="50" stroke="#1C1C1C" stroke-width="1" />
+  <line x1="34" y1="60" x2="94" y2="60" stroke="#1C1C1C" stroke-width="1" />
+  <line x1="34" y1="70" x2="94" y2="70" stroke="#1C1C1C" stroke-width="1" />
+  <line x1="34" y1="80" x2="94" y2="80" stroke="#1C1C1C" stroke-width="1" />
+  
+  <!-- Weekday labels -->
+  <text x="39" y="47" font-family="Arial" font-size="6" text-anchor="middle" fill="#FFFFFF">M</text>
+  <text x="49" y="47" font-family="Arial" font-size="6" text-anchor="middle" fill="#FFFFFF">T</text>
+  <text x="59" y="47" font-family="Arial" font-size="6" text-anchor="middle" fill="#FFFFFF">W</text>
+  <text x="69" y="47" font-family="Arial" font-size="6" text-anchor="middle" fill="#FFFFFF">T</text>
+  <text x="79" y="47" font-family="Arial" font-size="6" text-anchor="middle" fill="#FFFFFF">F</text>
+  <text x="89" y="47" font-family="Arial" font-size="6" text-anchor="middle" fill="#FFFFFF">S</text>
+  
+  <!-- Week 1 checks -->
+  <circle cx="39" cy="55" r="3" fill="#14F195" />
+  <path d="M37,55 L39,57 L41,53" stroke="#1C1C1C" stroke-width="1" fill="none" />
+  
+  <circle cx="59" cy="55" r="3" fill="#14F195" />
+  <path d="M57,55 L59,57 L61,53" stroke="#1C1C1C" stroke-width="1" fill="none" />
+  
+  <circle cx="89" cy="55" r="3" fill="#14F195" />
+  <path d="M87,55 L89,57 L91,53" stroke="#1C1C1C" stroke-width="1" fill="none" />
+  
+  <!-- Week 2 checks -->
+  <circle cx="49" cy="65" r="3" fill="#14F195" />
+  <path d="M47,65 L49,67 L51,63" stroke="#1C1C1C" stroke-width="1" fill="none" />
+  
+  <circle cx="79" cy="65" r="3" fill="#14F195" />
+  <path d="M77,65 L79,67 L81,63" stroke="#1C1C1C" stroke-width="1" fill="none" />
+  
+  <!-- Week 3 checks -->
+  <circle cx="39" cy="75" r="3" fill="#14F195" />
+  <path d="M37,75 L39,77 L41,73" stroke="#1C1C1C" stroke-width="1" fill="none" />
+  
+  <circle cx="69" cy="75" r="3" fill="#14F195" />
+  <path d="M67,75 L69,77 L71,73" stroke="#1C1C1C" stroke-width="1" fill="none" />
+  
+  <circle cx="89" cy="75" r="3" fill="#14F195" />
+  <path d="M87,75 L89,77 L91,73" stroke="#1C1C1C" stroke-width="1" fill="none" />
+  
+  <!-- Streak arrow -->
+  <path d="M47,98 L64,85 L81,98" stroke="#14F195" stroke-width="3" fill="none" />
+  <path d="M64,85 L64,105" stroke="#14F195" stroke-width="3" fill="none" />
+  
+  <!-- "3 weeks" text -->
+  <text x="64" y="118" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#FFFFFF">3 WEEKS</text>
+</svg>

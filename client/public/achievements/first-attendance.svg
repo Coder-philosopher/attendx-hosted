@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="64" cy="64" r="60" fill="#14F195" />
+  <circle cx="64" cy="64" r="50" fill="#1C1C1C" />
+  
+  <!-- Ticket -->
+  <path d="M38,48 L90,48 C92,48 94,50 94,52 L94,76 C94,78 92,80 90,80 L38,80 C36,80 34,78 34,76 L34,52 C34,50 36,48 38,48 Z" 
+        fill="#14F195" />
+  
+  <!-- Ticket details -->
+  <rect x="38" y="52" width="52" height="4" fill="#1C1C1C" />
+  <rect x="38" y="60" width="52" height="2" fill="#1C1C1C" />
+  <rect x="38" y="66" width="52" height="2" fill="#1C1C1C" />
+  <rect x="38" y="72" width="52" height="2" fill="#1C1C1C" />
+  
+  <!-- Perforation line -->
+  <line x1="84" y1="48" x2="84" y2="80" stroke="#1C1C1C" stroke-width="2" stroke-dasharray="3,2" />
+  
+  <!-- QR code representation -->
+  <rect x="64" y="58" width="16" height="16" rx="2" fill="#1C1C1C" />
+  <rect x="66" y="60" width="4" height="4" fill="#FFFFFF" />
+  <rect x="74" y="60" width="4" height="4" fill="#FFFFFF" />
+  <rect x="66" y="68" width="4" height="4" fill="#FFFFFF" />
+  <rect x="74" y="68" width="4" height="4" fill="#FFFFFF" />
+  
+  <!-- Check mark badge -->
+  <circle cx="45" cy="64" r="10" fill="#9945FF" />
+  <path d="M40,64 L44,68 L50,60" stroke="#FFFFFF" stroke-width="2" fill="none" />
+  
+  <!-- Number 1 badge -->
+  <circle cx="90" cy="38" r="12" fill="#FFEE00" />
+  <text x="90" y="43" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#000000">1</text>
+</svg>

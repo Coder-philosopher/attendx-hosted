@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="64" cy="64" r="60" fill="#14F195" />
+  <circle cx="64" cy="64" r="50" fill="#1C1C1C" />
+  
+  <!-- Party hat -->
+  <path d="M50,35 L78,35 L64,78 Z" fill="#FF5E5E" />
+  <path d="M54,35 L74,35 L64,70 Z" fill="#FFEE00" />
+  
+  <!-- Hat band -->
+  <path d="M52,43 L76,43 L74,47 L54,47 Z" fill="#9945FF" />
+  
+  <!-- Confetti -->
+  <rect x="30" y="45" width="4" height="2" rx="1" fill="#FF5E5E" transform="rotate(30 32 46)" />
+  <rect x="35" y="55" width="5" height="2" rx="1" fill="#FFEE00" transform="rotate(-15 37.5 56)" />
+  <rect x="90" y="48" width="4" height="2" rx="1" fill="#9945FF" transform="rotate(45 92 49)" />
+  <rect x="82" y="60" width="5" height="2" rx="1" fill="#14F195" transform="rotate(-30 84.5 61)" />
+  
+  <circle cx="42" cy="65" r="2" fill="#FF5E5E" />
+  <circle cx="86" cy="70" r="1.5" fill="#FFEE00" />
+  <circle cx="38" cy="75" r="1" fill="#14F195" />
+  <circle cx="78" cy="58" r="1.5" fill="#9945FF" />
+  
+  <!-- Event tokens -->
+  <g transform="translate(47, 90)">
+    <circle cx="0" cy="0" r="12" fill="#9945FF" opacity="0.8" />
+    <text x="0" y="4" font-family="Arial" font-size="7" font-weight="bold" text-anchor="middle" fill="#FFFFFF">EVENT</text>
+  </g>
+  
+  <g transform="translate(64, 90)">
+    <circle cx="0" cy="0" r="12" fill="#9945FF" opacity="0.9" />
+    <text x="0" y="4" font-family="Arial" font-size="7" font-weight="bold" text-anchor="middle" fill="#FFFFFF">EVENT</text>
+  </g>
+  
+  <g transform="translate(81, 90)">
+    <circle cx="0" cy="0" r="12" fill="#9945FF" />
+    <text x="0" y="4" font-family="Arial" font-size="7" font-weight="bold" text-anchor="middle" fill="#FFFFFF">EVENT</text>
+  </g>
+  
+  <!-- Enthusiasm stars -->
+  <path d="M45,60 L48,67 L55,68 L50,73 L51,80 L45,77 L39,80 L40,73 L35,68 L42,67 Z" 
+        fill="#FFEE00" opacity="0.8" />
+  
+  <path d="M83,60 L86,67 L93,68 L88,73 L89,80 L83,77 L77,80 L78,73 L73,68 L80,67 Z" 
+        fill="#FFEE00" opacity="0.8" />
+  
+  <!-- Number 20 badge -->
+  <circle cx="90" cy="40" r="14" fill="#FFEE00" />
+  <text x="90" y="46" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#000000">20</text>
+</svg>
